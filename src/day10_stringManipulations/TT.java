@@ -1,6 +1,8 @@
 package day10_stringManipulations;
 
-public class C10_ForLoop {
+import org.w3c.dom.ls.LSOutput;
+
+public class TT {
     public static void main(String[] args) {
 
         // input olarak verilen sayidan baslayip
@@ -9,20 +11,20 @@ public class C10_ForLoop {
         // - kac adet sayi oldugunu
         // - ve bu sayilarin toplaminin kac oldugunu yazdirin
 
-        int inputBas=34;
-        int inputBit=563;
+        int inputBas=1;
+        int inputBit=58;
         int toplam=0;
         int sayac=0;
 
         for (int i = inputBas; i < inputBit; i+=7) {
             System.out.print(i + " ");
+            toplam+=i;
             sayac++;
-            toplam += i;
 
 
-            }
+        }
         System.out.println("");
-        System.out.println("toplam " + sayac + " adet sayi var\nBu sayilarin toplami : " + toplam);
+        System.out.println(sayac + " adet sayinin \ntoplami : " + toplam);
 
         }
     }

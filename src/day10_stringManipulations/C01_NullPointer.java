@@ -36,7 +36,7 @@ public class C01_NullPointer {
         null pointer ise bu variable a bir deger atanmadigini
         ve bunun bilincli bir tercih olmadigini javaya soyler
         dolayisiyla Java kodlarin calismasina izin verir
-        Ancak deger atanmadigi icin mthodlarla kullanmaya calisirsaniz
+        Ancak deger atanmadigi icin methodlarla kullanmaya calisirsaniz
         NullPointerException verir
 
          */
