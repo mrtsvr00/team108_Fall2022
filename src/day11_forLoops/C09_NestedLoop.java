@@ -17,6 +17,8 @@ public class C09_NestedLoop {
         Satirda yaptigimiz islemi kac kere tekrar edecegimizi ise outer loop belirliyor
          */
 
+
+
         for (int i = 1; i <= kisaKenar ; i++) {
 
             for (int j = 1; j <= uzunkenar ; j++) {

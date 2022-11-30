@@ -41,5 +41,6 @@ public class C08_NestedForLoop {
         }
         // outer loop'un her bir deger artisi icin
         // inner loop bastan sona calisir
+
     }
 }
