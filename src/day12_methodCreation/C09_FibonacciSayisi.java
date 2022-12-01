@@ -6,7 +6,7 @@ public class C09_FibonacciSayisi {
         // verilen sayi adedince fibonacci serisinden sayilar yazdiran bir method olusturun
         // Fibonacci seresi = 0 1 1 2 3 5 8 13 21 34 ............
 
-        fibonaccidenSayiYazdir(10);
+        fibonaccidenSayiYazdir(5);
 
 
     }
@@ -26,6 +26,8 @@ public class C09_FibonacciSayisi {
             int sayi2=1;
             int sayi3=0;
 
+
+
             System.out.print("0 1 ");
 
             for (int i = 3; i <= adet ; i++) {
@@ -33,6 +35,8 @@ public class C09_FibonacciSayisi {
                 System.out.print(sayi3+ " ");
                 sayi1=sayi2;
                 sayi2=sayi3;
+
+
 
 
             }

@@ -17,10 +17,12 @@ public class C01_Method {
 
         System.out.println(str.isBlank());// false
 
-        //ya da donen sonucu ileride kullaacaksak atama yapabilirim.
+        //ya da donen sonucu ileride kullanacaksak atama yapabilirim.
 
 
 
-        String buyukFarfHali=str.toUpperCase();
+        String buyukHarfHali=str.toUpperCase();
+
+
     }
 }

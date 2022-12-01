@@ -7,6 +7,8 @@ public class C07_TerseCevirme {
         String str="can";
         System.out.println(metniTerseCevir(str));
         System.out.println(metniTerseCevir("haydi eller havaya"));
+        String sonuc=metniTerseCevir("hayat guzel");
+        System.out.println(sonuc);//lezug tayah
 
 
     }
