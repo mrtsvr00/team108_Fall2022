@@ -5,8 +5,6 @@ public class C03_AsalSayi {
 
         // input olarak verilen bir tamsayinin asal sayi olup olmadigini yazdirin
 
-        // input olarak verilen bir tamsayinin
-        // asal sayi olup olmadigini yazdirin
         int input=4737;
         String sonuc= "Sayi asal";
         for (int i = 2; i < input ; i++) {

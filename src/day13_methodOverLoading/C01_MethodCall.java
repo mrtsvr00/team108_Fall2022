@@ -23,7 +23,7 @@ public class C01_MethodCall {
         String tersStr= C07_TerseCevirme.metniTerseCevir(str);
         System.out.println(tersStr);//miratay rileg nay ,mirapay erek riB
 
-        // asagida verilen cumlenin palindrome olup o;madigini yazdirin
+        // asagida verilen cumlenin palindrome olup olmadigini yazdirin
 
         str="Java Candir";
 

@@ -2,7 +2,7 @@ package day08_StringManipulation;
 
 import java.util.Locale;
 
-public class C02_toUpperCaseLocale {
+public class    C02_toUpperCaseLocale {
     public static void main(String[] args) {
 
 
