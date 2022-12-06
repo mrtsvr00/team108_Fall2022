@@ -7,7 +7,7 @@ public class C03_MethodOverloading {
         toplama('a', 'b');//int ve double toplami :195.0
 
         //ilk olarak %100 uyumlu parametre arar
-        //eger %100 uyumlu yojksa calisabilecek method varmi diye kontrol eder
+        //eger %100 uyumlu yoksa calisabilecek method varmi diye kontrol eder
         // calisacak method birden fazla olursa minimum casting yaparak kullanabilecegini tercih eder
 
         toplama(8.4, 6);//2 double sayi toplami :14.4

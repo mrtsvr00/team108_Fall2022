@@ -6,6 +6,8 @@ public class C04_DoWhileLoop {
         // sayının tam kare olup olmadığını bulunuz,
         // tamkare ise true değilse false yazdırınız.
         //  Ornek :  input : 16, output: 4
+
+
         int input= 144;
         int karekok=1;
         boolean sonuc= false;
