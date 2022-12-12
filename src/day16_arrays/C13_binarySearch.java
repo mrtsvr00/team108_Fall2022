@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class C13_binarySearch {
     public static void main(String[] args) {
 
-        // binary tree javanin kullndigi ozel bir siralama yontrmidir.
+        // binary tree javanin kullandigi ozel bir siralama yontemidir.
         int [] arr={2,6,9,3,15,1,7};
 
 

@@ -14,7 +14,6 @@ public class C06_Soru {
 
 
     }
-
     public static void enDusukEnYuksekYazdirr(double[]fiyatlar){
 
         double enDusukFiyat=fiyatlar[0];
@@ -33,6 +32,8 @@ public class C06_Soru {
 
         }
         System.out.println("Listedeki en dusuk fiyat : " + enDusukFiyat + "\nlistedeki en yuksek fiyat : " + enYuksekFiyat);
+
+
     }
 
 }

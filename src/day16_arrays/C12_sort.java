@@ -13,10 +13,11 @@ public class C12_sort {
 
         String [] isimler= {"Huseyin", "Yusuf", "Mehmet", "Akile", "Said"};
 
-        System.out.println(Arrays.binarySearch(isimler, 2));
+        System.out.println(Arrays.binarySearch(isimler, "Said"));
 
 
         Arrays.sort(isimler);
+
 
         System.out.println(Arrays.toString(isimler));//[Akile, Huseyin, Mehmet, Said, Yusuf]
     }

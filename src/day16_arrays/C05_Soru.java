@@ -24,5 +24,6 @@ public class C05_Soru {
         }
         return toplam;
 
+
     }
 }

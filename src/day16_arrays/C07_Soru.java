@@ -5,7 +5,7 @@ public class C07_Soru {
         //Verilen bir array’de istenen bir elemanin var olup olmadigini
         // ve varsa kac kere kullanildigini yazdiran bir method olusturun.
 
-        int[]arr={2,3,4};
+        int[]arr={2,3,4,2};
         int arananSayi=2;
         elemanBul(arr, arananSayi);
 
@@ -27,7 +27,6 @@ public class C07_Soru {
         }
         if (sayac==0) System.out.println("aranan sayi arrayde yok");
         else System.out.println("Aradiginiz " + arananSayi + " arrayde " + sayac + " adet kullanilmistir");
-
 
     }
 }

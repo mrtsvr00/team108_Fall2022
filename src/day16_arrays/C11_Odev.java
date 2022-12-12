@@ -8,6 +8,27 @@ public class C11_Odev {
         // kullanici yeni deger verdigi muddetce C10 daki hazir methodu kulanarak eklemeye devem edin
         // kullanici 0 a bastiginda array in son halini dondurun
 
-        Scanner scan=new Scanner(System.in);
+        String[] isimler = {"kamil"};
+        String eklenecekIsim = "";
+
+        System.out.println(isimEkle(isimler, eklenecekIsim));
+
+
+    }
+
+    public static String[] isimEkle(String[] isimler, String eklenecekIsim) {
+        Scanner scan = new Scanner(System.in);
+
+
+        while (eklenecekIsim != "Yeter") {
+            System.out.println("lutfen isim giriniz\nbitince 0'a basiniz");
+            eklenecekIsim = scan.nextLine();
+
+            C10_ArrayeBirElementBekleme.elementEkle(isimler, eklenecekIsim);
+
+
+
+        }
+        return isimler;
     }
 }

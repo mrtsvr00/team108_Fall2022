@@ -10,24 +10,20 @@ public class C10_ArrayeBirElementBekleme {
 
         String[] isimler={"Ali","Veli","Cem"};
         String eklenecekIsim="Kemal";
-        isimler=arrayeElementEkleme(isimler,eklenecekIsim);
-        System.out.println(Arrays.toString(isimler)); // [Ali, Veli, Cem, Kemal]
+        System.out.println(Arrays.toString(elementEkle(isimler, eklenecekIsim)));
+
+
     }
+    public static String []elementEkle(String[]isimler,String eklenecekIsim){
 
-    public static String[] arrayeElementEkleme(String[] eklenilecekArray, String eklenecekElement){
+        String [] temp= new String [isimler.length+1];
 
-        String[] temp= new String[eklenilecekArray.length+1];
+        for (int i = 0; i < isimler.length; i++) {
+            temp[i]=isimler[i];
 
-        for (int i = 0; i < eklenilecekArray.length ; i++) {
-
-            temp[i]=eklenilecekArray[i];
         }
-
-        temp[temp.length-1] =eklenecekElement;
-
+        temp[temp.length-1]=eklenecekIsim;
         return temp;
-
-
 
     }
 
