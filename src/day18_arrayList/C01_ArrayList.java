@@ -13,18 +13,22 @@ public class C01_ArrayList {
         // bu array'e element olarak C eklemek istersek
         arr= C10_ArrayeBirElementBekleme.elementEkle(arr,"C");
         System.out.println(Arrays.toString(arr)); // [A, B, T, C]
+
         // ArrayList esnek uzunluktaki bir array'dir
         // Ancak ArrayList, array altyapisini kullandigindan
         // elementleri sadece tek tek ekleyebiliriz
         List<String> harfler= new ArrayList<>();
+
         System.out.println(harfler); // []
         harfler.add("A");
         harfler.add("B");
         harfler.add("K");
         System.out.println(harfler); // [A, B, K]
+
         harfler.add(1,"C");
         System.out.println(harfler); // [A, C, B, K] B ile K arasina D ekleyelim
         harfler.add(3,"D"); // [A, C, B, D, K]
+
         List<String> karakterler= new ArrayList<>();
         karakterler.add("*");
         karakterler.add("#");

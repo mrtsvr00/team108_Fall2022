@@ -9,8 +9,7 @@ public class C10_Soru {
         //Soru 2- Kullanicidan istedigi kadar isim alip,
         // Q’ya bastiginda girdigi isimleri bize liste olarak dondurecek bir method olusturun.
 
-        Scanner scan=new Scanner(System.in);
-        System.out.println("Lutfen isim giriniz");
+
 
         List<String> isimlerListesi=isimListesiOlustur();
         System.out.println(isimlerListesi);
