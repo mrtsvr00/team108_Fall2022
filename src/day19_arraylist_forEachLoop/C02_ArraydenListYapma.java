@@ -10,12 +10,12 @@ public class C02_ArraydenListYapma {
         Integer [] arr={2,3,4,6,3,4,6,1,8,5,4};
 
         /*
-        Verilen bir Array i List e cevirmek icin 2 yontem vardir,
-        1- Loop ile tum elemntleri loop a kopyaladik
+        Verilen bir Array'i List'e cevirmek icin 2 yontem vardir,
+        1- Loop ile tum elementleri loop a kopyaladik
         2- asList () kullanmak
             cok tavsiye etmiyoruz, cunku 2 buyuk dezavantaji var
             -asList ile olusturulan List, array den donusturuldugu icin
-            add,remove gibi size i degistiren methodlar kullanilamaz
+            add,remove gibi size degistiren methodlar kullanilamaz
             -aslist ile olusturulan list ile bagli oldugu Array ortak birbirinden ayrilmiyor
             birinde yapacagimiz degisiklik otomatik olarak digerini etkiliyor
          */

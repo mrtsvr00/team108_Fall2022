@@ -6,9 +6,9 @@ import java.util.List;
 public class C07_set {
     public static void main(String[] args) {
 
-        // java da bicok yapida get ve set methodlari bulunur.
-        //get methodlari bilgiyi bize getririken
-        //set methodlari bilgii update eder.
+        // java da bircok yapida get ve set methodlari bulunur.
+        // get methodlari bilgiyi bize getririken
+        // set methodlari bilgiyi update eder.
 
         List<String> harfler= new ArrayList<>();
         harfler.add("A");

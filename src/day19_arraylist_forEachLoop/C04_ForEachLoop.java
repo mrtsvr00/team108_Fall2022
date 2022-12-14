@@ -10,7 +10,7 @@ public class C04_ForEachLoop {
         Integer [] arr={2,3,4,6,3,4,6,1,8,5,4};
         List<Integer>list1=new ArrayList<>();
 
-        //arrydeki tum elemntleri list'e kopyalayalim
+        //arraydeki tum elementleri list'e kopyalayalim
 
         for (Integer each:arr
              ) {

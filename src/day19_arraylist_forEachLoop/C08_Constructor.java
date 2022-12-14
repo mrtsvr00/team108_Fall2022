@@ -19,8 +19,8 @@ public class C08_Constructor {
 
         ayrica o classda bulunan tum methodlarda objemizle iliskilendirilir
 
-        Bu islemleri saglayan java yapisi CONSRUCTOR'dir.
-        bu isleme de initiliaza (ilk deger atamasi) denir.
+        Bu islemleri saglayan java yapisi CONSTRUCTOR'dir.
+        bu isleme de initialize (ilk deger atamasi) denir.
 
         new keyword ile obje olusturulurken
         esitligin saginda new ile birlikte classIsmi yazilir.

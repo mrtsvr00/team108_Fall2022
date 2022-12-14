@@ -5,16 +5,13 @@ public class C03_ForEachLoop {
 
         /*
 
-
-        Eger coklu element iceren yapidaki tum elementlereayni islemi yapmak istiyorsak
+        Eger coklu element iceren yapidaki tum elementlere ayni islemi yapmak istiyorsak
         indeksten bagimsiz olarak for each loop kullanilabilir
 
-        for each loop ta 3 seyi belirtmemeiz gerekirr
+        for each loop ta 3 seyi belirtmemeiz gerekir
         1-getirilecek eklementlerin data turu
-        2-getirilen elemnte verilecek isim (genelde each veya w kullanilir)
+        2-getirilen elemente verilecek isim (genelde each veya w kullanilir)
         3-nereden getirilecegi
-
-
 
          */
 

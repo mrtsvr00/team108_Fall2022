@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class C05_Soru {
+public class C05_ForEachLoopSoru {
     public static void main(String[] args) {
         //Soru 1- Verilen bir array’de tekrar eden elementler icin, mukerrer olanlari silip,
         // tum elemanlardan sadece 1 tane yapip eski array’e yeni halini atayip yazdirin.

@@ -3,7 +3,7 @@ package day19_arraylist_forEachLoop;
 import java.util.ArrayList;
 import java.util.List;
 
-public class C07_Soru {
+public class C07_ForEachLoopSoru {
     public static void main(String[] args) {
 
         //Soru 5- Verilen iki array’in elementlerini karsilastirip,

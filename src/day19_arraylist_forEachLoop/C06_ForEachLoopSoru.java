@@ -1,6 +1,6 @@
 package day19_arraylist_forEachLoop;
 
-public class C06_Soru {
+public class C06_ForEachLoopSoru {
     public static void main(String[] args) {
 
         //Soru 4- Kullanicidan bir cumle ve bir harf alin,

@@ -9,7 +9,7 @@ public class Toyota {
     String renk;
     // default constructor suna benzer
 
-    Toyota(){
+    public Toyota(){
         System.out.println("Toyota class'indaki cons.calisti.");
 
     }
@@ -22,7 +22,7 @@ public class Toyota {
      */
 
     /*
-        Java'da her calass obje uretmek uzere olusturulur
+        Java'da her class obje uretmek uzere olusturulur
 
         bir obje olusturulup, ilk deger atamasi yapilabilmesi icin de
         MUTLAKA constructor calismalidir.
