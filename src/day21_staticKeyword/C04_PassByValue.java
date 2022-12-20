@@ -13,6 +13,8 @@ public class C04_PassByValue {
 
         System.out.println(fiyat);//100
 
+
+
     }
 
     public static void indirimYap10(int fiyat) {

@@ -16,6 +16,7 @@ public class C02_remove {
         System.out.println(harfler.remove(0)); // A
         // 0.index'deki elementi siler ve gorevi tamamlayip silinen elementi bize dondurur
         System.out.println(harfler); // [T]
+
         List<String> yeniList = new ArrayList<>();
         yeniList.add("C");
         yeniList.add("D");
