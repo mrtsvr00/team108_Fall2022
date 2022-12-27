@@ -3,6 +3,14 @@ package day21_staticKeyword;
 public class C02_PassByValue {
     public static void main(String[] args) {
 
+        /*
+        TANIMI
+        1- Pass By value : programlama dilleri bir variable method’da kullanilacaksa, asil
+        variable’in degerinin degisip degismeyecegine karar vermelidir. Eger method’da
+        yapilan degisiklik asil variable’in degerini degistirmiyorsa buna pass by value,
+        degistiriyorsa buna pass by reference denir.
+         */
+
 
         /*Java PassByValue kullanir
         Yani method'lar arasinda gonderilen variable'larin
@@ -14,7 +22,7 @@ public class C02_PassByValue {
         System.out.println(indirimYap10(fiyat)); // 90
         System.out.println(indirimYap10(fiyat)); // 90
         System.out.println(indirimYap10(fiyat)); // 90
-        System.out.println(indirimYap10(fiyat)); // 100
+        System.out.println(fiyat); // 100
         // eger indirimli fiyatin kalici olarak fiyatimizi degistirmesini istersek
         // atama yapariz
         fiyat=indirimYap10(fiyat);

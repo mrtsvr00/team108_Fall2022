@@ -3,6 +3,7 @@ package day21_staticKeyword;
 public class C03_PassByValue {
     public static void main(String[] args) {
 
+
         int sayi=20;
 
         System.out.println(sayi);
