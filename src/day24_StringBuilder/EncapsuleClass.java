@@ -11,15 +11,15 @@ public class EncapsuleClass {
     private int toplamSatis=0; // gorulebilsin ama degistirilemesin ==> getter
     private int halkaAcikSayi = 10; // herkese acik olsun ==> getter, setter
 
-    public int getHalkaAcikSayi() {
-        return halkaAcikSayi;
-    }
+        public int getHalkaAcikSayi() {
+            return halkaAcikSayi;
+        }
 
-    public void setHalkaAcikSayi(int halkaAcikSayi) {
-        this.halkaAcikSayi = halkaAcikSayi;
-    }
+        public void setHalkaAcikSayi(int halkaAcikSayi) {
+            this.halkaAcikSayi = halkaAcikSayi;
+        }
 
-    public void setSatis(int satis) {
+        public void setSatis(int satis) {
         this.satis = satis;
         toplamSatis += this.satis;
     }
