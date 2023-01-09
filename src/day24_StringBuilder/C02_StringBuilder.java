@@ -43,7 +43,7 @@ public class C02_StringBuilder {
         System.out.println(sb.reverse());//AVAH
 
         sb.insert(1,"H ");
-        System.out.println(sb);
+        System.out.println(sb);//AH VAH
 
         String uzunMetin=" ETMEK YOK CALISMAK VAR";
 

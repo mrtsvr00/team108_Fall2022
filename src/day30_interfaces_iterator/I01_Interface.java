@@ -19,10 +19,10 @@ public interface I01_Interface {
 
     Java ya yapilan talepler sonucunda
     Java8 ile birlikte bu konuda bir istisna getirilmistir.
-    Egersonradan eklenen methodun tum eski classslar tarafindan implement edilma mecburiyeti
+    Eger sonradan eklenen methodun tum eski classslar tarafindan implement edilme mecburiyeti
     olmasin istiyorsaniz
 
-    yeni olusturdugunuz methoda DEFAULT veya STATIC keyword ekleyipbody de olusturursaniz
+    yeni olusturdugunuz methoda DEFAULT veya STATIC keyword ekleyip body de olusturursaniz
     o zaman methodun child classlar tarafindan implement edilme MECBURIYETI olmaz.
 
      */

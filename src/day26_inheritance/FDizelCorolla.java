@@ -6,6 +6,7 @@ public class FDizelCorolla extends ECorolla {
     String guvenlik="Abs";
     String renk="renk belirtilmedi";
     public static void main(String[] args) {
+
         DToyota c3=new FDizelCorolla();
         System.out.println(c3.motor); // T "Motor Belirtilmedi"
         System.out.println(c3.yakit); // T Yakit belirtilmedi
@@ -21,6 +22,9 @@ public class FDizelCorolla extends ECorolla {
         // aldigini bilmek isteriz
         // Bu durumda data turunu constructor'i kullanilan class'in
         // parent class'larindan secebiliriz
+
+
+
         ECorolla c2=new FDizelCorolla();
         System.out.println(c2.motor); // T  Motor belirtilmedi
         System.out.println(c2.yakit); // T yakit belirtilmedi
@@ -31,6 +35,9 @@ public class FDizelCorolla extends ECorolla {
         System.out.println(c2.teker); //C 200.55 teker
         System.out.println(c2.vites); // C vites belirtilmedi
         System.out.println(c2.marka);//T Toyota
+
+
+
         FDizelCorolla c1=new FDizelCorolla();
         System.out.println(c1.motor); // DC 1.6 dizel motor
         System.out.println(c1.yakit); // DC Dizel

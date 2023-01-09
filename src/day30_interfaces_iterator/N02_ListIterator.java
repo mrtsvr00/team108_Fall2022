@@ -34,7 +34,7 @@ public class N02_ListIterator {
         //yani olmasini istedigimiz yerde
 
         while (lit.hasPrevious()){
-            System.out.println(lit.previous() + " ");
+            System.out.print(lit.previous() + " ");
         }
 
 
