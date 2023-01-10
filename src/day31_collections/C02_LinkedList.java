@@ -7,7 +7,7 @@ public class C02_LinkedList {
     public static void main(String[] args) {
 
 
-        // List dat turunde bir LinkedList olusturalim
+        // List data turunde bir LinkedList olusturalim
 
         List<String>harfler= new LinkedList<>();
         harfler.add("H");
