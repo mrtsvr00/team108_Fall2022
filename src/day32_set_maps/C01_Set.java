@@ -8,7 +8,7 @@ import java.util.Set;
 public class C01_Set {
     public static void main(String[] args) {
         //Collections, objelerden olusan bir toplulugu bir arada tutan yapilardir.
-        //Data turu olarak obje secilirse icerisine her data turunden element konulbilir
+        //Data turu olarak obje secilirse icerisine her data turunden element konulabilir
         //ancak bu durumda elemntlere ulasmak onlari update etmek gibi islemler normalden daha zor olabilir.
         //hatta bazen mumkun olmayabilir.
 

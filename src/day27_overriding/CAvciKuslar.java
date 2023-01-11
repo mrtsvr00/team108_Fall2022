@@ -26,7 +26,7 @@ public class CAvciKuslar extends BKuslar {
         krt1.beslenme();//c et yerler
         krt1.pence();//c pencelidirler
         krt1.gaga();//c sivri gagalidirlar
-        krt1.kanat();//c kanatlidirlar
+        krt1.kanat();//b kanatlidirlar
         krt1.solunum();//b akcigerle nefes alirlar
         krt1.cogalma();//b yumurtayla cogaliyorlar
         krt1.omur();//a yasar ve olurler

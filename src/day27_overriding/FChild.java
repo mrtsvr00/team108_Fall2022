@@ -20,4 +20,5 @@ public class FChild extends EParent {
         // sebep : parent'daki method3 private access modifier'a sahip oldugundan
         // onu ayri bir method olarak gorur, override olarak gormez
     }
+
 }

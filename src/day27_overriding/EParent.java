@@ -3,6 +3,7 @@ package day27_overriding;
 public class EParent extends DGrandParent{
     @Override
     protected void method1() {
+        super.method1();
         System.out.println("P method1");
 
         // @override notasyonu overridden method ile overriding method'u ilisiklendirir
