@@ -41,7 +41,7 @@ public class C04_Deque {
         System.out.println(karakterler.clone());//[B, A]
 
         LinkedList<String>kopyaKarakterler=(LinkedList<String>)karakterler.clone();
-        System.out.println(kopyaKarakterler);
+        System.out.println(kopyaKarakterler);//[B, A]
 
 
     }

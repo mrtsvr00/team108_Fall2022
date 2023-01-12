@@ -12,5 +12,6 @@ public class C06_SiniflariArtirma {
         Map<Integer,String>ogrenciMap= MapMethodDepo.ogrenciMapOlustur();
 
         ogrenciMap=MapMethodDepo.siniflariArtir(ogrenciMap);
+
     }
 }
